@@ -1,6 +1,6 @@
 %define	module	Catalyst-Plugin-Session-Store-DBI
 %define	name	perl-%{module}
-%define version 0.07
+%define version 0.11
 %define release %mkrel 1
 
 Summary:	Store your sessions in a database
