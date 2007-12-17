@@ -16,7 +16,6 @@ BuildRequires:	perl(Catalyst::Plugin::Session) >= 0.05
 BuildRequires:	perl(DBI)
 BuildRequires:	perl(MIME::Base64)
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This storage module will store session data in a database using DBI.
