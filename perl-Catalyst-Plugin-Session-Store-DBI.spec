@@ -8,7 +8,7 @@ Release:	5
 Summary:	Store your sessions in a database
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/A/AG/AGRUNDMA//%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
