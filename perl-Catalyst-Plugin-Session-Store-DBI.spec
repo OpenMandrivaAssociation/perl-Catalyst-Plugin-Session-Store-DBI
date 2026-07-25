@@ -2,14 +2,14 @@
 %define upstream_version 0.16
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	Store your sessions in a database
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/A/AG/AGRUNDMA//%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Plugin-Session-Store-DBI
+Source0:	https://cpan.metacpan.org/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-DBI-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
