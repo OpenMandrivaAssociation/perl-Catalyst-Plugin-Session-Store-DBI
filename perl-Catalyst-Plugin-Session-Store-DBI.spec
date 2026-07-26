@@ -1,15 +1,13 @@
 %define	upstream_name	 Catalyst-Plugin-Session-Store-DBI
-%define upstream_version 0.16
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	0.16
+Release:	7
 
 Summary:	Store your sessions in a database
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Plugin-Session-Store-DBI
-Source0:	https://cpan.metacpan.org/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-DBI-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/F/FL/FLORA/Catalyst-Plugin-Session-Store-DBI-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -25,7 +23,7 @@ BuildArch:	noarch
 This storage module will store session data in a database using DBI.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL installdirs=vendor
